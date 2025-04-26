@@ -1,0 +1,18 @@
+{
+  "name": "chess-training-model",
+  "version": "1.0.0",
+  "description": "使用Brain.js构建的国际象棋训练模型",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "train": "node train.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.23",
+    "chess.js": "^1.0.0-beta.6"
+  },
+  "keywords": ["chess", "neural-network", "brain.js", "machine-learning"],
+  "author": "",
+  "license": "MIT"
+}
